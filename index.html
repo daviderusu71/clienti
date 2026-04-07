@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>David Developer | Portofoliu Web</title>
+  <meta
+    name="description"
+    content="Portofoliu profesional pentru David Developer, web developer specializat in HTML, CSS si JavaScript."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#hero">David Developer</a>
+
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Deschide meniul" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="site-nav">
+        <a href="#about">Despre</a>
+        <a href="#projects">Proiecte</a>
+        <a href="#testimonials">Testimoniale</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Schimba tema">
+        <span class="theme-toggle__track">
+          <span class="theme-toggle__thumb"></span>
+        </span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero reveal" id="hero">
+        <div class="hero__content">
+          <p class="eyebrow">Web Developer Premium</p>
+          <h1>David Developer</h1>
+          <p class="hero__lead">Construiesc site-uri moderne care atrag clienti</p>
+          <p class="hero__text">
+            Creez experiente digitale elegante, rapide si optimizate pentru conversii, cu atentie la
+            detalii, performanta si imagine de brand.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#projects">Vezi proiectele</a>
+            <a class="button button--ghost" href="#contact">Cere o oferta</a>
+          </div>
+        </div>
+
+        <div class="hero__card glass-card reveal">
+          <div class="hero__shine"></div>
+          <div class="hero__metrics">
+            <div>
+              <span class="metric__value">30+</span>
+              <span class="metric__label">Pagini create</span>
+            </div>
+            <div>
+              <span class="metric__value">100%</span>
+              <span class="metric__label">Responsive</span>
+            </div>
+            <div>
+              <span class="metric__value">24h</span>
+              <span class="metric__label">Raspuns rapid</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">Despre Mine</p>
+          <h2>Cod cu pasiune si construiesc prezente online care inspira incredere</h2>
+        </div>
+        <div class="about glass-card">
+          <p>
+            Sunt un web developer pasionat de HTML, CSS si JavaScript, iar obiectivul meu este sa
+            transform ideile in website-uri moderne, clare si memorabile. Imi place sa combin designul
+            premium cu functionalitatea practica, astfel incat fiecare site sa arate excelent si sa ofere
+            o experienta fluida pe orice dispozitiv.
+          </p>
+        </div>
+      </section>
+
+      <section class="section reveal" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Proiecte</p>
+          <h2>Exemple de site-uri construite pentru business-uri moderne</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card glass-card reveal">
+            <div class="project-card__image">
+              <img
+                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+                alt="Website de restaurant cu design elegant"
+              >
+            </div>
+            <div class="project-card__badge">Restaurant</div>
+            <h3>Restaurant Elegant</h3>
+            <p>
+              Un website rafinat pentru rezervari online, meniu interactiv si prezentare vizuala premium.
+            </p>
+            <a class="button button--secondary" href="#contact">Vezi proiect</a>
+          </article>
+
+          <article class="project-card glass-card reveal">
+            <div class="project-card__image">
+              <img
+                src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=1200&q=80"
+                alt="Website de magazin online modern"
+              >
+            </div>
+            <div class="project-card__badge">Magazin Online</div>
+            <h3>E-Commerce Luxury</h3>
+            <p>
+              Un magazin online cu accent pe conversii, produse scoase in evidenta si experienta intuitiva.
+            </p>
+            <a class="button button--secondary" href="#contact">Vezi proiect</a>
+          </article>
+
+          <article class="project-card glass-card reveal">
+            <div class="project-card__image">
+              <img
+                src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80"
+                alt="Website de portofoliu creativ premium"
+              >
+            </div>
+            <div class="project-card__badge">Portofoliu</div>
+            <h3>Portfolio Creativ</h3>
+            <p>
+              O prezentare moderna pentru profesionisti care vor sa impresioneze prin imagine si claritate.
+            </p>
+            <a class="button button--secondary" href="#contact">Vezi proiect</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="testimonials">
+        <div class="section-heading">
+          <p class="eyebrow">Testimoniale</p>
+          <h2>Feedback de la clienti care au vrut mai mult decat un site obisnuit</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial glass-card reveal">
+            <p>
+              "David a livrat un site superb, rapid si foarte bine structurat. Clientii nostri au observat
+              imediat diferenta."
+            </p>
+            <h3>Andreea Popescu</h3>
+            <span>Owner Restaurant Boutique</span>
+          </article>
+
+          <article class="testimonial glass-card reveal">
+            <p>
+              "Am obtinut un magazin online elegant si usor de folosit. Colaborarea a fost clara si
+              profesionista de la inceput pana la final."
+            </p>
+            <h3>Mihai Ionescu</h3>
+            <span>Fondator Brand Fashion</span>
+          </article>
+
+          <article class="testimonial glass-card reveal">
+            <p>
+              "Mi-am dorit un portofoliu premium si exact asta am primit. Designul transmite incredere si
+              rafinament."
+            </p>
+            <h3>Ioana Marin</h3>
+            <span>Consultant Creativ</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Hai sa discutam despre urmatorul tau website</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-copy glass-card reveal">
+            <h3>Prezenta online care lasa impresie</h3>
+            <p>
+              Daca vrei un site modern, responsive si construit pentru imagine profesionala, trimite-mi un
+              mesaj si revenim rapid cu o directie clara.
+            </p>
+          </div>
+
+          <form class="contact-form glass-card reveal" id="contact-form" novalidate>
+            <div class="form-field">
+              <label for="name">Nume</label>
+              <input id="name" name="name" type="text" placeholder="Numele tau">
+              <small class="error-message"></small>
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="email@exemplu.com">
+              <small class="error-message"></small>
+            </div>
+
+            <div class="form-field">
+              <label for="message">Mesaj</label>
+              <textarea id="message" name="message" rows="5" placeholder="Spune-mi pe scurt ce ai nevoie"></textarea>
+              <small class="error-message"></small>
+            </div>
+
+            <button class="button button--primary" type="submit">Trimite mesajul</button>
+            <p class="form-status" id="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__grid glass-card">
+        <div class="footer__brand">
+          <a class="footer__logo" href="#hero">David Developer</a>
+          <p>Construiesc site-uri moderne pentru afaceri</p>
+        </div>
+
+        <div class="footer__nav">
+          <h3>Navigatie Rapida</h3>
+          <a href="#hero">Home</a>
+          <a href="#about">Despre</a>
+          <a href="#projects">Proiecte</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer__social">
+          <h3>Conecteaza-te</h3>
+          <div class="social-links">
+            <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+
+          <a
+            class="whatsapp-button"
+            href="https://wa.me/40712345678?text=Salut%2C%20vreau%20un%20site%20web"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>Contact WhatsApp</span>
+          </a>
+        </div>
+
+        <div class="footer__map">
+          <h3>Locatie</h3>
+          <div class="map-frame">
+            <iframe
+              title="Harta Bucuresti"
+              src="https://www.google.com/maps?q=Bucuresti&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2026 David Developer</p>
+      </div>
+    </footer>
+  </div>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Inapoi sus">↑</button>
+  <a
+    class="floating-whatsapp"
+    href="https://wa.me/40712345678?text=Salut%2C%20vreau%20un%20site%20web"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="Deschide conversatia WhatsApp"
+  >
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
